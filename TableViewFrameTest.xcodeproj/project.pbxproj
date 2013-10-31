@@ -19,6 +19,12 @@
 		4D62751A1822A9D1004EE316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6275021822A9D1004EE316 /* UIKit.framework */; };
 		4D6275221822A9D1004EE316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6275201822A9D1004EE316 /* InfoPlist.strings */; };
 		4D6275241822A9D1004EE316 /* TableViewFrameTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6275231822A9D1004EE316 /* TableViewFrameTestTests.m */; };
+		4D6275321822AA21004EE316 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6275301822AA21004EE316 /* TestViewController.m */; };
+		4D6275331822AA21004EE316 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6275311822AA21004EE316 /* TestViewController.xib */; };
+		4D6275361822AC15004EE316 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6275351822AC15004EE316 /* TestTableViewController.m */; };
+		4D62753A1822B6A2004EE316 /* Flow 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6275371822B6A2004EE316 /* Flow 1.jpg */; };
+		4D62753B1822B6A2004EE316 /* Flow 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6275381822B6A2004EE316 /* Flow 2.jpg */; };
+		4D62753C1822B6A2004EE316 /* Flow 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6275391822B6A2004EE316 /* Flow 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,14 @@
 		4D62751F1822A9D1004EE316 /* TableViewFrameTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewFrameTestTests-Info.plist"; sourceTree = "<group>"; };
 		4D6275211822A9D1004EE316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D6275231822A9D1004EE316 /* TableViewFrameTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewFrameTestTests.m; sourceTree = "<group>"; };
+		4D62752F1822AA21004EE316 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4D6275301822AA21004EE316 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		4D6275311822AA21004EE316 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		4D6275341822AC15004EE316 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		4D6275351822AC15004EE316 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		4D6275371822B6A2004EE316 /* Flow 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flow 1.jpg"; sourceTree = "<group>"; };
+		4D6275381822B6A2004EE316 /* Flow 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flow 2.jpg"; sourceTree = "<group>"; };
+		4D6275391822B6A2004EE316 /* Flow 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flow 3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +125,14 @@
 				4D62750E1822A9D1004EE316 /* AppDelegate.m */,
 				4D6275101822A9D1004EE316 /* Images.xcassets */,
 				4D6275051822A9D1004EE316 /* Supporting Files */,
+				4D62752F1822AA21004EE316 /* TestViewController.h */,
+				4D6275301822AA21004EE316 /* TestViewController.m */,
+				4D6275311822AA21004EE316 /* TestViewController.xib */,
+				4D6275341822AC15004EE316 /* TestTableViewController.h */,
+				4D6275351822AC15004EE316 /* TestTableViewController.m */,
+				4D6275371822B6A2004EE316 /* Flow 1.jpg */,
+				4D6275381822B6A2004EE316 /* Flow 2.jpg */,
+				4D6275391822B6A2004EE316 /* Flow 3.jpg */,
 			);
 			path = TableViewFrameTest;
 			sourceTree = "<group>";
@@ -219,7 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6275331822AA21004EE316 /* TestViewController.xib in Resources */,
+				4D62753B1822B6A2004EE316 /* Flow 2.jpg in Resources */,
+				4D62753C1822B6A2004EE316 /* Flow 3.jpg in Resources */,
 				4D6275091822A9D1004EE316 /* InfoPlist.strings in Resources */,
+				4D62753A1822B6A2004EE316 /* Flow 1.jpg in Resources */,
 				4D6275111822A9D1004EE316 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6275321822AA21004EE316 /* TestViewController.m in Sources */,
 				4D62750F1822A9D1004EE316 /* AppDelegate.m in Sources */,
 				4D62750B1822A9D1004EE316 /* main.m in Sources */,
+				4D6275361822AC15004EE316 /* TestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

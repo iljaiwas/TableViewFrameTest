@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "TestViewController.h"
+
+@interface AppDelegate ()
+
+@property (strong) TestViewController *testViewController;
+
+@end
 
 @implementation AppDelegate
 
@@ -16,6 +23,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+	
+	self.testViewController = [[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
+	
+	self.window.rootViewController = self.testViewController;
     return YES;
 }
 
